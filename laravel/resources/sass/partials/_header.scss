@@ -1,0 +1,25 @@
+header{
+    text-align: center;
+
+    ul{
+        list-style: none;
+
+        li{
+            display: inline-block;
+            height: 40px;
+            text-transform: capitalize;
+
+
+            a{
+                text-decoration: none;
+                padding: 15px;
+                color: $menu-color;
+
+                &:hover{
+                    background-color: $menu-bgcolor;
+                }
+            }
+
+        }
+    }
+}
