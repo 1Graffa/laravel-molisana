@@ -12,30 +12,26 @@
 header {
   text-align: center;
 }
-
 header ul {
   list-style: none;
 }
-
 header ul li {
   display: inline-block;
   height: 40px;
   text-transform: capitalize;
 }
-
 header ul li a {
   text-decoration: none;
   padding: 15px;
   color: #002d75;
 }
-
 header ul li a:hover {
   background-color: #b3e5fc;
 }
 
 .sezione-foto {
   height: 500px;
-  background-image: url(/images/molisana-home.jpg?cb7db241726fb646d7e1c8553429c07c);
+  background-image: url("../images/molisana-home.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,16 +41,13 @@ header ul li a:hover {
   display: flex;
   flex-wrap: wrap;
 }
-
 .card-container .card {
   width: calc(100% / 3);
   position: relative;
 }
-
 .card-container .card img {
   max-width: 100%;
 }
-
 .card-container .card .overlay {
   display: none;
   position: absolute;
@@ -63,7 +56,6 @@ header ul li a:hover {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
 .card-container .card .overlay a {
   text-decoration: none;
   position: absolute;
@@ -71,7 +63,6 @@ header ul li a:hover {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-
 .card-container .card:hover .overlay {
   display: block;
   z-index: 1;
@@ -82,9 +73,8 @@ header ul li a:hover {
 
 footer {
   height: 200px;
-  background-image: url(/images/footer-montagne-bottom.jpg?d53b01335f4c26b84b40ca2ab0a64ece);
+  background-image: url("../../img/footer-montagne-bottom.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
