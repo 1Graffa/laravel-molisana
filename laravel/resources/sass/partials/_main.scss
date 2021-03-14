@@ -42,3 +42,19 @@
     }
 
 }
+
+.scheda-prodotto img{
+    max-width: 100%;
+    display: block;
+}
+
+.descrizione{
+    background-color: $menu-bgcolor;
+}
+
+.info{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
